@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(135deg, rgb(204, 119, 119), #cfb313);
+    font-family: sans-serif;
+    }
+.custom-card {
+    max-width: 320px;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.custom-card:hover {
+    background-color: rgb(241, 232, 217);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.custom-card h3 {
+    color: #333;
+}
+.custom-card p {
+    color: #555;
+}
+.btn{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
